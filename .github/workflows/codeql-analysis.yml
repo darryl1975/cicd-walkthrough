@@ -3,6 +3,8 @@ name: CodeQL
 on: 
   workflow_run:
     workflows: ["Maven Package"]
+    types:
+      - completed
 #  push:  
 #    branches: [ main ]  
 #  pull_request:  
